@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(32, 33, 36, 1);
+  font-size: 1.5rem;
+  color: #dfe1e2;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+}
+nav {
+  display: contents;
+}
+a {
+  padding: 1rem;
+  text-decoration: none;
+  color: antiquewhite;
+}
+.pfp {
+  border-radius: 50%;
+}
+main {
+  margin-top: 5px;
+  text-align: center;
+}
+.main-logo {
+  margin: 0 auto; /*centra las imágenes*/
+  margin-bottom: 25px;
+}
+main .search-input-section {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 30px; /*centra el contenido*/
+}
+main .search-input-container {
+  width: 550px;
+  border-radius: 100px;
+  border: 1px solid rgb(102, 101, 101);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+input {
+  width: 490px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: antiquewhite;
+  background-color: rgba(32, 33, 36, 1);
+}
+main .search-input-container:hover {
+  box-shadow: 0 1px 6px rgb(29, 28, 28);
+  border-color: rgb(28, 29, 32);
+}
+span > img {
+  width: 15px;
+  height: 15px;
+  padding-left: 10px;
+}
+button {
+  margin-right: 5px;
+  padding: 0 15px; /*0 top-bottom y 15 left-right*/
+  height: 35px;
+  background-color: rgb(50, 50, 50);
+  border: none;
+  border-radius: 5px;
+  color: #dfe1e2;
+}
+button:hover {
+  border: 1px solid;
+  border-color: grey;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: flex-end;
+  background-color: #171717;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 95%;
+}
+footer a {
+  color: #9aa0a6;
+}
